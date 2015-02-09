@@ -1,0 +1,8 @@
+# BEGIN Styleguide
+<IfModule mod_rewrite.c>
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^styleguide(/|$) wp-content/plugins/theideabureau-	styleguide/plugin.php [L]
+</IfModule>
+# END Styleguide
